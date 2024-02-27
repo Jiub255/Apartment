@@ -1,0 +1,58 @@
+- - - - - - - - - - - - -
+ _ _ _
+   |    / \  | \  / \  *
+   |    \ /  | /  \ /  *
+
+- - - - - - - - - - - - -
+
+-Set up tests.
+    -Instrumented and Unit tests? Not really sure how to do all this.
+
+-Add back button to app bar, like in the Jetpack Compose Basics tutorial.
+
+- - - - - - - - - - - - - - - - - - - -
+    __
+   (    -+-   ^   |_)  -+-  |=  | \  *
+  __)    |   / \  | \   |   |_  | /  *
+
+- - - - - - - - - - - - - - - - - - - -
+
+-Set up viewModel and uiState like in tutorial.
+    -What data/logic to put in them?
+    -Data:
+        -"Expanded" bool array for ItemCards?
+        -User Data:
+            -Account data
+            -List of items bought
+                -Date/time
+                -Cost
+                -Seller
+                -Item ID
+            -List of items sold
+                -Same
+    -Logic:
+        -"Expanded" bool toggle function for ItemCard onClick
+        -User-data-changing functions
+
+- - - - - - - - - - - -
+ ___
+  | \  / \  |\|  |=  *
+ _|_/  \ /  | |  |_  *
+
+- - - - - - - - - - - -
+
+-Separate data out into DataSource.kt.
+
+-Make/use theme using Material Design.
+
+-In MainActivity.kt, move ApartmentApp function to its own class file.
+
+-Use animations (Modifier.animateContentSize()).
+
+-Set up NavHost/NavController/NavGraph
+    -Link it up to the top app bar.
+    -Set up at least one other app screen to navigate to/from first.
+        -Just do a simple home screen for now.
+
+-Separate out each composable function in ApartmentApp.kt?
+    -No? But keep each screen's composable(s) in their own files at least.

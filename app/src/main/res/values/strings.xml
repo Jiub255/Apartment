@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Close Quarters</string>
+    <string name="browse_items">For Sale</string>
+    <string name="item_name_1">Bed frame</string>
+    <string name="item_desc_1">Queen size bed frame with headboard and attached nightstands.</string>
+    <string name="item_name_2">Bookshelf</string>
+    <string name="item_desc_2">Victorian mahogany bookshelf.</string>
+    <string name="item_name_3">Couch</string>
+    <string name="item_desc_3">Uncomfortable hipster couch.</string>
+    <string name="item_name_4">Space chairs</string>
+    <string name="item_desc_4">Space chairs from the future.</string>
+</resources>
